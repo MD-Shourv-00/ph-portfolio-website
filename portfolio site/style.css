@@ -1,0 +1,23 @@
+* {
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display:flex;
+    background-color: #017d73;
+    justify-content: space-between;
+    margin:10px;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
