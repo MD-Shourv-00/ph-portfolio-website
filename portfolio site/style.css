@@ -19,6 +19,8 @@
 .container{
     margin:0px auto ;
     max-width: 1200px;
+    font-size: 1.3rem;
+    border-radius: 5px;
 }
 /* header start */
 nav h2{
@@ -53,7 +55,7 @@ nav ul li a{
 
 /* hero section style start*/
 #section_root{
-    background-color: #faf1eb;
+    background-color: #fff8f3;
 }
 #hero_section{
     display: flex;
@@ -90,3 +92,32 @@ nav ul li a{
 
 /* hero section style end */
 
+/* about section start  */
+.about_sec_container{
+    background-color: #fff8f3;
+    margin: 50px auto;
+    padding:90px 180px;
+    text-align: center;
+    
+}
+.about_contant h2, p, .div_about_info{
+    margin: 20px 0px;
+}
+
+.about_contant p{
+    color: #757575;
+    font-size: smaller;
+}
+
+.about_contant .div_about_info{
+    display: flex;
+    justify-content: space-between;
+
+}
+.about_contant .div_about_info .box h3{
+    font-size:1.1rem;
+    margin-top: -15px;
+
+}
+
+/* about section end  */
