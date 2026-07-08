@@ -119,5 +119,89 @@ nav ul li a{
     margin-top: -15px;
 
 }
-
 /* about section end  */
+
+/* what I do section start */
+.wid_root p{
+    color:#757575;
+}
+.wid_root .wid_text{
+    text-align: center;
+    padding: 10px 50px;
+}
+
+.wid_root .wid_cards{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    margin: 20px 0px;
+    column-gap: 15px;
+}
+
+.wid_root .wid_cards .wid_card{
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0px 0px 20px #d4d3d3;
+    border-radius: 5px;
+    
+}
+.wid_root .wid_cards p, h3, img{
+    margin-right: 30px;
+    margin-bottom: 15px;
+}
+.wid_root .wid_cards h3{
+    font-size: 1.5rem;
+}
+.wid_root .wid_cards p{
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+
+
+/* what I do section end */
+
+/* gellary start */
+.gellary_root{
+    margin-top: 100px;
+}
+.gellary_root h2{
+    text-align: center;
+    margin: 50px;
+}
+
+.work_snapshot img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.gellary_root .work_snapshot{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 250px;
+    grid-template-areas:
+    'snap2 snap5 snap4'
+    'snap3 snap5 snap6'
+    'snap3 snap1 snap6'
+    ;
+}
+
+.single_snapshot1{
+    grid-area: snap1;
+}
+.single_snapshot2{
+    grid-area: snap2;
+}
+.single_snapshot3{
+    grid-area: snap3;
+}
+.single_snapshot4{
+    grid-area: snap4;
+}
+.single_snapshot5{
+    grid-area: snap5;
+}
+.single_snapshot6{
+    grid-area: snap6;
+}
+/* gellary end */
