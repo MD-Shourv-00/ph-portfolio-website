@@ -205,3 +205,59 @@ nav ul li a{
     grid-area: snap6;
 }
 /* gellary end */
+
+/* footer section start */
+#footer_section{
+    background-color: #fff8f3;
+}
+.footer_root{
+    display: flex;
+    margin: 100px auto 0px;
+    gap: 30px;
+    padding:100px 0px ;
+    
+}
+.footer_root .left_footer{
+    padding-right: 50px;
+    margin: auto 0px;
+}
+.footer_root .left_footer p{
+    font-size: 1.1rem;
+    color:rgb(108, 108, 108);
+    
+}
+.footer_root .right_footer{
+    width: 100%;
+}
+.footer_root .right_footer form input, textarea{
+    padding:15px;
+    border-radius:5px;
+    margin: 15px 0px;
+    width: 100%;
+    font-size: 0.9rem;
+    height: 70px;
+    border: none;
+    outline: none;
+}
+.footer_root .right_footer form textarea{
+    height: 200px;
+    resize: none;
+}
+.footer_root .right_footer form input:focus, textarea:focus{
+    border: 3px solid #FD6E0A;
+    box-shadow: 0px 0px 0px 2px #fce5d6;
+    
+}
+
+.footer_root .right_footer form .form_btn{
+    font-size: 1.2rem;
+    padding: 10px 20px;
+
+}
+.footer_root .right_footer form .form_btn:hover{
+    background: white;
+    border: 2px solid #FD6E0A;
+    color: #FD6E0A;
+
+}
+/* footer section END */
